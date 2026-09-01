@@ -1,0 +1,50 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#4A87C4" />
+      <stop offset="100%" stopColor="#6DCCF2" />
+    </linearGradient>
+    <linearGradient id="nightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#141726" />
+      <stop offset="100%" stopColor="#0B0E1B" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#6DCCF2" />
+      <stop offset="50%" stopColor="#29C7D9" />
+      <stop offset="100%" stopColor="#4A87C4" />
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="100" cy="100" r="92" />
+    </clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="96" stroke="url(#borderGrad)" stroke-width="5" fill="#141726" />
+  <g clip-path="url(#circleClip)">
+    <path d="M 0 0 L 200 0 L 200 70 L 0 160 Z" fill="url(#skyGrad)" />
+    <path d="M 0 160 L 200 70 L 200 200 L 0 200 Z" fill="url(#nightGrad)" />
+    <path d="M -10 168 L 210 78 L 210 68 L -10 158 Z" fill="#29C7D9" opacity="0.9" />
+    <path d="M -10 164 L 210 74 L 210 70 L -10 160 Z" fill="#FFFFFF" opacity="0.8" />
+    <rect x="24" y="80" width="14" height="60" fill="#FFFFFF" opacity="0.9" rx="1" />
+    <rect x="42" y="65" width="16" height="75" fill="#FFFFFF" opacity="0.95" rx="1" />
+    <rect x="62" y="75" width="14" height="65" fill="#FFFFFF" opacity="0.9" rx="1" />
+    <rect x="80" y="45" width="22" height="95" fill="#FFFFFF" opacity="0.98" rx="1" />
+    <rect x="106" y="55" width="18" height="85" fill="#FFFFFF" opacity="0.95" rx="1" />
+    <rect x="128" y="68" width="18" height="72" fill="#FFFFFF" opacity="0.9" rx="1" />
+    <rect x="150" y="85" width="15" height="55" fill="#FFFFFF" opacity="0.85" rx="1" />
+    <rect x="168" y="98" width="12" height="42" fill="#FFFFFF" opacity="0.8" rx="1" />
+    <path d="M 38 75 L 38 40 L 72 40 L 72 25 L 90 25" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.95" />
+    <circle cx="78" cy="25" r="5" fill="#FFFFFF" />
+    <path d="M 78 17 L 78 33" stroke="#29C7D9" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 115 48 L 138 48 L 138 60 L 165 60 L 165 85" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.95" />
+    <circle cx="128" cy="48" r="5" fill="#FFFFFF" />
+    <path d="M 128 40 L 128 56" stroke="#29C7D9" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 10 130 C 50 120 150 120 190 130 L 190 200 L 10 200 Z" fill="#0E1220" opacity="0.95" />
+    <text x="100" y="144" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-weight="800" font-size="18">Facility Bombas</text>
+    <g transform="translate(68, 154) scale(0.68)" fill="#FFFFFF">
+      <rect x="6" y="10" width="38" height="22" rx="3" fill="#FFFFFF" />
+      <rect x="14" y="32" width="22" height="6" rx="1" fill="#FFFFFF" />
+      <path d="M 44 8 C 44 8 50 4 60 4 C 70 4 76 8 76 8 L 76 34 C 76 37 72 40 60 40 C 48 40 44 37 44 34 Z" fill="#FFFFFF" />
+      <rect x="56" y="-2" width="8" height="7" fill="#FFFFFF" />
+      <path d="M 76 22 L 88 22 L 88 38 L 82 38 L 82 28 L 76 28 Z" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

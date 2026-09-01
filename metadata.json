@@ -1,0 +1,6 @@
+{
+  "name": "Facility Bombas — Controle de Metas",
+  "description": "Sistema de gestão, acompanhamento e controle de metas e indicadores administrativos da Facility Bombas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
