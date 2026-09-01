@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Facility-Bombas-Controle-de-metas/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
